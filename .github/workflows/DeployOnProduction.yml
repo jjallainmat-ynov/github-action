@@ -1,0 +1,21 @@
+name: Deploy to Staging
+
+on:
+  push:
+    branches:
+      - feature/2ndexercice
+  workflow_run:
+    workflows: ["Deploy to Staging"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy to production
+        run: |
+          echo My Production is deployed !
