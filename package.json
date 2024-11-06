@@ -4,9 +4,13 @@
   "description": "An example Node.js app",
   "scripts": {
     "test": "jest",
-    "build": "echo 'Building app...'"
+    "build": "echo 'Building app...'",
+    "prepare": "husky"
   },
   "dependencies": {
     "jest": "^27.0.6"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6"
   }
 }
