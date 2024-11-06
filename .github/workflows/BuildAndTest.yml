@@ -1,9 +1,7 @@
-name: Build Application
+name: Build And Test Application
 
 on:
-  push:
-    branches:
-      - feature/2ndexercice
+  workflow_dispatch:
 
 jobs:
   build:
