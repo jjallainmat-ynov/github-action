@@ -1,11 +1,8 @@
 name: Deploy to Staging
 
 on:
-  push:
-    branches:
-      - feature/2ndexercice
   workflow_run:
-    workflows: ["Build Application"]
+    workflows: ["Build And Test Application"]
     types:
       - completed
 
