@@ -14,5 +14,5 @@ jobs:
       - name: Send message to Discord
         run: |
           curl -X POST -H "Content-Type: application/json" \
-          -d '{"content": "Un nouveau push a été effectué sur la branche main ! 🚀"}' \
+          -d '{"content": "Super la production est à jour ! 🚀"}' \
           ${{ secrets.DISCORD_WEBHOOK_URL }}
