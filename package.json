@@ -1,15 +1,12 @@
 {
-  "name": "github-action",
+  "name": "my-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An example Node.js app",
   "scripts": {
-      "test": "jest",
-      "build": "echo 'Building app...'"
-    },
-   "dependencies": {
-     "jest": "^27.0.6"
-   },
-  "author": "",
-  "license": "ISC"
+    "test": "jest",
+    "build": "echo 'Building app...'"
+  },
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
 }
