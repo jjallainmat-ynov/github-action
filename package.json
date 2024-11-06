@@ -7,6 +7,9 @@
       "test": "jest",
       "build": "echo 'Building app...'"
     },
+   "dependencies": {
+     "jest": "^27.0.6"
+   },
   "author": "",
   "license": "ISC"
 }
